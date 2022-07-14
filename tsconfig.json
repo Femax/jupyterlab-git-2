@@ -29,7 +29,8 @@
     "node_modules",
     "./node_modules",
     "./node_modules/*",
-    "./node_modules/@blueprintjs/core/lib/esm/components/resize-sensor/resizeObserverTypes.d.ts",
+    "/node_modules/@blueprintjs/core/lib/esm/components/resize-sensor/resizeObserverTypes.d.ts",
+    "node_modules/@blueprintjs/**/*.d.ts"
     "**/*.d.ts"
   ]
 }
