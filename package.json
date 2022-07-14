@@ -13,6 +13,7 @@
     "jupyterlab-extension"
   ],
   "scripts": {
+    "genversion": "genversion --es6 --semi src/version.ts",
     "build": "genversion --es6 --semi src/version.ts && tsc",
     "build:labextension": "jlpm && jlpm clean:labextension && mkdirp jupyterlab_git/labextension && cd jupyterlab_git/labextension && npm pack ../..",
     "clean": "rimraf lib tsconfig.tsbuildinfo",
