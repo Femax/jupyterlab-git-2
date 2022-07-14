@@ -16,6 +16,8 @@
     "preserveWatchOutput": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
+    "skipDeclarationFilesCheck": true,
+    "skipDefaultLibCheck": true,
     "rootDir": "src",
     "sourceMap": true,
     "sourceRoot": "./@jupyterlab/git/src",
