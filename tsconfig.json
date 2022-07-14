@@ -2,7 +2,7 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "composite": true,
-    "declaration": true,
+    "declaration": false,
     "esModuleInterop": true,
     "incremental": true,
     "inlineSources": true,
@@ -16,8 +16,6 @@
     "preserveWatchOutput": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "skipDeclarationFilesCheck": true,
-    "skipDefaultLibCheck": true,
     "rootDir": "src",
     "sourceMap": true,
     "sourceRoot": "./@jupyterlab/git/src",
@@ -31,6 +29,6 @@
     "node_modules",
     "./node_modules",
     "./node_modules/*",
-    "./node_modules/@blueprintjs/**/*.d.ts"
+    "node_modules/@blueprintjs/**/*.d.ts"
   ]
 }
